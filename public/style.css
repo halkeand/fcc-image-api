@@ -1,0 +1,44 @@
+* {
+  font-family: Karma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding:10px;
+  text-align: center;
+}
+
+.info-container {
+  flex: 1 1 0;
+  text-align: center;
+  padding:10px;
+  margin:10px;
+  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+a {
+    background-color: black;
+  color: white;
+  padding:10px;
+  text-decoration: none;
+}  
